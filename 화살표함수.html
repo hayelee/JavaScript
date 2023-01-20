@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<script>
+    // ES6에 Arrow function(화살표함수) 등장
+    // 대단한 건 아니고, 자바스크립트에선 워낙 함수를 많이 맹글다보니
+    // 개발자의 손목 보호를 위해, 타이핑양도 줄이고, 콜백함수 사용시
+    // 가독성도 쪼매 올려 보자는 억지 감성에서 시작(272쌤의 개인적인 의견)
+    // 화살표함수에는 this에 대한 제약사항이 몇가지 있는데
+    // 억지로 외우려고 힘쓰지 말고, this에 대한 제어가 필요하면
+    // 그냥 function 키워드를 사용하는 것이 정신 건강에 좋음!
+    // 자주 써서 눈에 익숙하게 맹급니당
+    
+
+// const firstArrow = (p_arg) =>{ //매개변수가 하나만 있을 때 양쪽 괄호(p_arg) 생략 가능!
+//     return p_arg;
+// }
+const firstArrow = p_arg => p_arg; // {} 블록 안에 return문 하나만 있을 때, return과 {} 모두 생략 가능! 은근 이 형태가 많이 사용됨!
+alert(firstArrow("완존메롱"));
+
+// 
+
+</script>
